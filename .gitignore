@@ -1,0 +1,19 @@
+# build output
+bin/
+obj/
+dist/
+node_modules/
+
+# uploaded images (keep the empty folder)
+**/wwwroot/uploads/*
+!**/wwwroot/uploads/.gitkeep
+
+# IDE and OS files
+.vs/
+.idea/
+*.user
+.DS_Store
+Thumbs.db
+
+# logs
+*.log
